@@ -25,7 +25,7 @@ const canDecrease = computed(() => id.value > 1)
       >
       <div>
         <a :href="'https://www.ssgdfs.com/kr/dispctg/brand/'+ad.brandNameEN">
-          <span class="text-blue">{{ ad.categoryName }} >>> {{ ad.brandNameKR }}</span>
+          <span class="text-blue">{{ ad.categoryName }} >>> {{ ad.brandNameKR }} || {{ ad.updatedAt }}</span>
         </a>
       </div>
       <!-- <v-row>
